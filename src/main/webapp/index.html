@@ -11,7 +11,7 @@
     </h1>
     <form method="post" action="SelectPet">
        <br>
-        <select name="Type" size="1">
+        <select name="Type" onchange="window.location.href= this.form.URL.options[this.form.URL.selectedIndex].value size="1">
             <option value="https://www.jenkins.io/">DOG</option>
             <option>CAT</option>
             <option>PARROT</option>
